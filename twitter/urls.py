@@ -15,4 +15,5 @@ urlpatterns = [
     # path('support/', views.support),
     path('thankyou/', views.thankyou),
     path('paypal_callback/twengage_paypal_callback/', views.paypal_ipn_handler),
+    path('help/', views.help),
 ]

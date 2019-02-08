@@ -108,7 +108,9 @@ def order_details(request):
     return render(request, "order_details.html", context={})
 
 
-    
+
+def help(request):
+    return render(request, "help.html", context={})
 # def support(request):
 #     if request.method == "GET":
 #         return render(request, "support.html", context={})
