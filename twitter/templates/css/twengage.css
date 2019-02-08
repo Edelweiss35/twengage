@@ -414,6 +414,28 @@ button.slick-prev:hover{
 .icon-two:before {
   content: "\e905";
 }
+.icon-seven{
+    width:40px;
+    height:40px;
+    background: transparent url(../images/food7.png) no-repeat;
+
+}
+.icon-eight{
+    width:40px;
+    height:40px;
+    background: transparent url(../images/food8.png) no-repeat;
+}
+.icon-seven:before{
+    width:40px;
+    height:40px;
+    background: transparent url(../images/food07.png) no-repeat;
+
+}
+.icon-eight:before{
+    width:40px;
+    height:40px;
+    background: transparent url(../images/food08.png) no-repeat;
+}
 @font-face{
 	font-family: 'mark';
 	font-style: normal;
@@ -768,6 +790,16 @@ p{
 	color: #3df6b0;
 	transition: all 0.3s;
 }
+.tg-ul li.active figure p08 i{
+	color: #3df6b0;
+	transition: all 0.3s;
+    background: url(../images/food08.png) no-repeat;
+}
+.tg-ul li.active figure p07 i{
+	color: #3df6b0;
+	transition: all 0.3s;
+    background: url(../images/food07.png) no-repeat;
+}
 .tg-ul li.active .tg-content p{
 	display: block;
 	color: #8c909d;
@@ -786,9 +818,9 @@ p{
 	transition: all 0.3s;
 	display: block;
 	position: absolute;
-	top: -38px;
-	left: calc(50% - 187.5px);
-	width: 375px;
+	top: -10px;
+	left: calc(50% - 306.5px);
+	width: 600px;
 }
 .tg-list{
     padding-top: 90px;
@@ -797,7 +829,7 @@ p{
 	text-align: center;
 	padding: 0 30px 30px;
 	width: 320px;
-	min-height: 220px;
+	min-height: 150px;
 	border-radius: 10px;
 	margin-bottom: 40px;
 }
