@@ -2272,15 +2272,9 @@ width: 320px;
         max-width: 400px;
         margin: 0 auto;
     }
-    .tg-ul div .tg-content {
-    -webkit-animation: mymove 2s;
-    animation: mymove 2s;
-    left: calc(50% - 178px);
-    }
-
     .slider1 {
     width: 390px;
-    height: 535px;
+    height: 670px;
     display: flex;
     overflow-x: auto;
     }
@@ -2306,10 +2300,96 @@ width: 320px;
     }
 
     .tg-ul div.active .tg-content {
-        display: none;
+
+    }
+    .tg-ul div .tg-content {
+
+    }
+    .tg-ul div.active .tg-content {
+    -webkit-animation: mymove 2s;
+    animation: mymove 2s;
+    left: calc(50% - 170px);
+    width: 70%;
+    height: 15%;
+    margin-top: 55px;
+    }
+    .tg-ul div .tg-content {
+    -webkit-animation: mymove 2s;
+    animation: mymove 2s;
+    left: calc(50% - 170px);
+    width: 70%;
+    height: 15%;
+    margin-top: 55px;
+    }
+    .tg-ul div.active figure {
+    margin-bottom: -35px;
+    }
+    .tg-ul div figure {
+    margin-bottom: -35px;
+    }
+    .tg-ul div .tg-content {
+    background-color: #fff;
 }
     .tg-ul div .tg-content {
-        display: none;
+    -webkit-animation: mymove 2s;
+    /* animation: mymove 2s; */
+    left: calc(50% - 170px);
+    width: 70%;
+    height: 15%;
+    margin-top: 55px;
+}
+    .tg-ul div.active figure {
+    transform: translateY(-38px);
+    position: relative;
+    z-index: 9;
+    background-color: #fff;
+    color: #3df6b0;
+    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.1), inset 0 0 0 0 rgba(255, 255, 255, 0.3);
+    margin-bottom: -20px;
+    transition: all 0.3s;
+}
+    .tg-ul div figure {
+    transform: translateY(-38px);
+    position: relative;
+    z-index: 9;
+    background-color: #fff;
+    color: #3df6b0;
+    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.1), inset 0 0 0 0 rgba(255, 255, 255, 0.3);
+    margin-bottom: -20px;
+    transition: all 0.3s;
+}
+    .tg-ul div.active figure i {
+    color: #3df6b0;
+    transition: all 0.3s;
+}
+    .tg-ul div figure i {
+    color: #3df6b0;
+    transition: all 0.3s;
+}
+    .tg-ul div.active .tg-content h4 {
+    transition: all 0.3s;
+    color: #2ba1fb;
+    padding-bottom: 12px;
+}
+    .tg-ul div .tg-content h4 {
+    transition: all 0.3s;
+    color: #2ba1fb;
+    padding-bottom: 12px;
+}
+    .tg-ul div figure p08 i{
+        color: #3df6b0;
+        transition: all 0.3s;
+        background: url(../images/food08.png) no-repeat;
+    }
+    .tg-ul div figure p07 i{
+        color: #3df6b0;
+        transition: all 0.3s;
+        background: url(../images/food07.png) no-repeat;
+    }
+    .tg-ul div.active figure p07 i {
+    color: #3df6b0;
+    transition: all 0.3s;
+    background: url(../images/food07.png) no-repeat;
 }
 }
 
@@ -2330,18 +2410,24 @@ width: 320px;
         max-width: 400px;
         margin: 0 auto;
     }
+    .tg-list {
+    padding-top: 0px;
+    }
     .tg-ul div.active .tg-content {
     -webkit-animation: mymove 2s;
     animation: mymove 2s;
-    left: calc(50% - 148px);
-    }
+    left: calc(50% - 196px);
+    margin-top: 43px;
+    height: 15%;
+    width: 70%;
+}
     .tg-ul div .tg-content {
     -webkit-animation: mymove 2s;
     animation: mymove 2s;
-    left: calc(50% - 148px);
-    }
-    .tg-list {
-    padding-top: 0px;
+    left: calc(50% - 196px);
+    margin-top: 43px;
+    height: 15%;
+    width: 70%;
     }
 }
 @media(max-width: 320px) {
@@ -2366,11 +2452,11 @@ width: 320px;
     .tg-ul div.active .tg-content {
     -webkit-animation: mymove 2s;
     animation: mymove 2s;
-    left: calc(50% - 120px);
+    left: calc(50% - 220px);
     }
     .tg-ul div .tg-content {
     -webkit-animation: mymove 2s;
     animation: mymove 2s;
-    left: calc(50% - 120px);
+    left: calc(50% - 220px);
     }
 }
