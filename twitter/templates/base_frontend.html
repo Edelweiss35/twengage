@@ -138,32 +138,32 @@
 </script>
 <script type="text/javascript">
  $(document).ready( function() {
-    if ( $(window).width() < 767) {
+    if ( $(window).width() < 0) {
 	    setInterval(function(){
         $('.tg-ul .active').addClass('next');
-            if($('.tg-ul li:last-child').hasClass('active')){
-                $('.tg-ul li:first-child').addClass('active');
+            if($('.tg-ul div:last-child').hasClass('active')){
+                $('.tg-ul div:first-child').addClass('active');
             }
             else{
                 $('.tg-ul .active').next().addClass('active');
             }
             $('.tg-ul .next').removeClass('active next');
-        }, 15000);
+        }, 0);
     }
  });
 
 $(window).resize(function(){
-	if ( $(window).width() < 767) {
+	if ( $(window).width() < 0) {
 		    setInterval(function(){
 	        $('.tg-ul .active').addClass('next');
-	            if($('.tg-ul li:last-child').hasClass('active')){
-	                $('.tg-ul li:first-child').addClass('active');
+	            if($('.tg-ul div:last-child').hasClass('active')){
+	                $('.tg-ul div:first-child').addClass('active');
 	            }
 	            else{
 	                $('.tg-ul .active').next().addClass('active');
 	            }
 	            $('.tg-ul .next').removeClass('active next');
-	        }, 15000);
+	        }, 0);
 	    }
 });
 </script>

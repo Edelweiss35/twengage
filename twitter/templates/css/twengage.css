@@ -761,22 +761,22 @@ p{
 	display: flex;
 	flex-wrap: wrap;
 }
-.tg-ul li{
+.tg-ul div{
 	width: 50%;
 	flex: 0 0 50%; 
 }
-.tg-ul li:nth-child(2n) .tg-content{
+.tg-ul div:nth-child(2n) .tg-content{
 	margin-left: auto;
 }
-.tg-ul li.active .tg-content{
+.tg-ul div.active .tg-content{
 	background-color: #fff;
 }
-.tg-ul li.active .tg-content h4{
+.tg-ul div.active .tg-content h4{
 	transition: all 0.3s;
 	color: #000;
 	padding-bottom: 12px;
 }
-.tg-ul li.active figure{
+.tg-ul div.active figure{
 	transform:  translateY(-38px);
 	position: relative;
 	z-index: 9;
@@ -786,21 +786,21 @@ p{
 	margin-bottom: 0;
 	transition: all 0.3s;
 }
-.tg-ul li.active figure i{
+.tg-ul div.active figure i{
 	color: #3df6b0;
 	transition: all 0.3s;
 }
-.tg-ul li.active figure p08 i{
+.tg-ul div.active figure p08 i{
 	color: #3df6b0;
 	transition: all 0.3s;
     background: url(../images/food08.png) no-repeat;
 }
-.tg-ul li.active figure p07 i{
+.tg-ul div.active figure p07 i{
 	color: #3df6b0;
 	transition: all 0.3s;
     background: url(../images/food07.png) no-repeat;
 }
-.tg-ul li.active .tg-content p{
+.tg-ul div.active .tg-content p{
 	display: block;
 	color: #8c909d;
 	font-size: 18px;
@@ -814,7 +814,7 @@ p{
 	height: auto;
 	transition: all 0.3s;
 }
-.tg-ul li.active .tg-output{
+.tg-ul div.active .tg-output{
 	transition: all 0.3s;
 	display: block;
 	position: absolute;
@@ -1823,16 +1823,22 @@ width: 320px;
     .container {
         max-width: 1140px;
     }
+    .tg-output img{
+	width: 100%;
+	height: auto;
+	transition: all 0.3s;
+}
 }
 @media (max-width: 1199px){
     .tg-content{
         min-height: 200px;
         width: 275px;
     }
-    .tg-ul li.active .tg-output{
-        left: calc(50% - 137.5px);
+    .tg-ul div.active .tg-output{
         width: 275px;
-        top: 0;
+        left: calc(50% - 244.5px);
+
+        margin-top: 110px;
     }
     .banner-wrap .banner-right img{
         width: 510px;
@@ -1856,7 +1862,7 @@ width: 320px;
     .ft-subscribe button, #footer .col-md-6 a, #how-work .row p, .ms-title h6, #target .target-title h6, #testimonial .test-title h6, #how-work .work-title h6, #message p{
         font-size: 16px;
     }
-    .fc-top p, .pk-top p, .ms-top p, .faq-top p, .gt-btn .btn, .ms-list li, #membership p, .tg-ul li.active .tg-content p, #banner p{
+    .fc-top p, .pk-top p, .ms-top p, .faq-top p, .gt-btn .btn, .ms-list li, #membership p, .tg-ul div.active .tg-content p, #banner p{
         font-size: 14px;
     }
     .ms-time{
@@ -1902,6 +1908,11 @@ width: 320px;
         line-height: 50px;
         width: 350px;
     }
+    .tg-output img{
+	width: 175%;
+	height: auto;
+	transition: all 0.3s;
+}
 }
 @media (max-width: 991px){
     .banner-wrap .banner-right img{
@@ -1952,7 +1963,7 @@ width: 320px;
     .tg-content figure{
         margin-bottom: 20px;
     }
-    .tg-ul li.active .tg-content p{
+    .tg-ul div.active .tg-content p{
         display: none;
     }
     .tg-content {
@@ -2035,18 +2046,19 @@ width: 320px;
     #message .author{
         justify-content: center;
     }
-    .tg-ul li{
+    .tg-ul div{
         flex: 0 0 100%;
         padding-left: 25px;
         padding-right: 25px;
         margin: 0 auto;
         display: none;
     }
-    .tg-ul li.active .tg-content{
+    .tg-ul div.active .tg-content{
          -webkit-animation: mymove 2s; /* Safari 4.0 - 8.0 */
         animation: mymove 2s;
+        left: calc(50% - 230px);
     }
-    .tg-ul li.active{
+    .tg-ul div.active{
         display: block;
         position: relative;
        
@@ -2061,9 +2073,9 @@ width: 320px;
   from {top: -40px;}
   to {top: 0px;}
 }
-    .tg-ul li.active .tg-output, .tg-content{
+    .tg-ul div.active .tg-output, .tg-content{
         position: relative;
-        left: 0px;
+        left: calc(50% - 385px);
         width: 100%;
         max-width: 400px;
         margin: 0 auto;
@@ -2071,7 +2083,7 @@ width: 320px;
     .tg-content{
         margin-bottom: 20px;
     }
-    .tg-ul li.active .tg-content p{
+    .tg-ul div.active .tg-content p{
         display: block;
     }
     .ms-left{
@@ -2181,5 +2193,127 @@ width: 320px;
     }
     .fc-btn button{
         line-height: 45px;
+    }
+}
+@media screen and (max-width: 512px) {
+   .swiper-slide .number {
+      display: none;}
+
+   .swiper-item {
+      width: 90%;
+   }
+   .swiper-arrows {
+      right: 10%;
+   }
+
+   .swiper-button-next {
+      width: 60px;
+      height: 60px;
+      bottom: 0;
+   }
+    .swiper-arrows{
+      height: 60px;
+   }
+
+   .swiper-button-prev {
+      right: 60px;
+   }
+   .swiper-button-prev span {
+      left: 45%;
+    }
+
+   .swiper-button-next span {
+      right: 45%;
+   }
+    pagination {
+      right: calc(10% - 60px);
+   }
+
+   .swiper-pagination-bullet,
+   .swiper-pagination-bullet:hover {
+      width: 15px;
+   }
+
+   .swiper-container-horizontal >
+   .swiper-pagination-bullets .swiper-pagination-bullet {
+      margin: 8px 0px;
+   }
+
+   .swiper-pagination-bullet-active,
+   .swiper-pagination-bullet-active:hover {
+      width: 25px;
+   }
+    {
+      width: 60%;
+   }
+
+   .slide-text h1 {
+      font-size: 15px;
+      letter-spacing: 0.02em;
+   }
+
+   .slide-text p {
+      font-size: 14px;
+   }
+}
+
+@media(max-width: 425px) {
+    .tg-ul div.active .tg-output, .tg-content {
+        position: relative;
+        left: calc(50% - 309px);
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    .tg-ul div.active .tg-content {
+    -webkit-animation: mymove 2s;
+    animation: mymove 2s;
+    left: calc(50% - 178px);
+    }
+    .slider1 {
+        width: 395px;
+        height: 1000px;
+        display: flex;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+    .slide1 {
+        width: 395px;
+        flex-shrink: 0;
+        height: 100%;
+        display: block;
+        position: relative;
+    }
+
+}
+
+
+
+@media(max-width: 375px) {
+    .tg-ul div.active .tg-output, .tg-content {
+        position: relative;
+        left: calc(50% - 265px);
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    .tg-ul div.active .tg-content {
+    -webkit-animation: mymove 2s;
+    animation: mymove 2s;
+    left: calc(50% - 148px);
+    }
+}
+@media(max-width: 320px) {
+    .tg-ul div.active .tg-output, .tg-content {
+        position: relative;
+        left: calc(50% - 215px);
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    .tg-ul div.active .tg-content {
+    -webkit-animation: mymove 2s;
+    animation: mymove 2s;
+    left: calc(50% - 120px);
     }
 }

@@ -740,22 +740,22 @@ p{
 	display: flex;
 	flex-wrap: wrap;
 }
-.tg-ul li{
+.tg-ul div{
 	width: 50%;
 	flex: 0 0 50%; 
 }
-.tg-ul li:nth-child(2n) .tg-content{
+.tg-ul div:nth-child(2n) .tg-content{
 	margin-left: auto;
 }
-.tg-ul li.active .tg-content{
+.tg-ul div.active .tg-content{
 	background-color: #fff;
 }
-.tg-ul li.active .tg-content h4{
+.tg-ul div.active .tg-content h4{
 	transition: all 0.3s;
 	color: #000;
 	padding-bottom: 12px;
 }
-.tg-ul li.active figure{
+.tg-ul div.active figure{
 	transform:  translateY(-38px);
 	position: relative;
 	z-index: 9;
@@ -765,11 +765,11 @@ p{
 	margin-bottom: 0;
 	transition: all 0.3s;
 }
-.tg-ul li.active figure i{
+.tg-ul div.active figure i{
 	color: #3df6b0;
 	transition: all 0.3s;
 }
-.tg-ul li.active .tg-content p{
+.tg-ul div.active .tg-content p{
 	display: block;
 	color: #8c909d;
 	font-size: 18px;
@@ -783,7 +783,7 @@ p{
 	height: auto;
 	transition: all 0.3s;
 }
-.tg-ul li.active .tg-output{
+.tg-ul div.active .tg-output{
 	transition: all 0.3s;
 	display: block;
 	position: absolute;
@@ -1798,7 +1798,7 @@ width: 320px;
         min-height: 200px;
         width: 275px;
     }
-    .tg-ul li.active .tg-output{
+    .tg-ul div.active .tg-output{
         left: calc(50% - 137.5px);
         width: 275px;
         top: 0;
@@ -1825,7 +1825,7 @@ width: 320px;
     .ft-subscribe button, #footer .col-md-6 a, #how-work .row p, .ms-title h6, #target .target-title h6, #testimonial .test-title h6, #how-work .work-title h6, #message p{
         font-size: 16px;
     }
-    .fc-top p, .pk-top p, .ms-top p, .faq-top p, .gt-btn .btn, .ms-list li, #membership p, .tg-ul li.active .tg-content p, #banner p{
+    .fc-top p, .pk-top p, .ms-top p, .faq-top p, .gt-btn .btn, .ms-list li, #membership p, .tg-ul div.active .tg-content p, #banner p{
         font-size: 14px;
     }
     .ms-time{
@@ -1921,7 +1921,7 @@ width: 320px;
     .tg-content figure{
         margin-bottom: 20px;
     }
-    .tg-ul li.active .tg-content p{
+    .tg-ul div.active .tg-content p{
         display: none;
     }
     .tg-content {
@@ -2004,18 +2004,18 @@ width: 320px;
     #message .author{
         justify-content: center;
     }
-    .tg-ul li{
+    .tg-ul div{
         flex: 0 0 100%;
         padding-left: 25px;
         padding-right: 25px;
         margin: 0 auto;
         display: none;
     }
-    .tg-ul li.active .tg-content{
+    .tg-ul div.active .tg-content{
          -webkit-animation: mymove 2s; /* Safari 4.0 - 8.0 */
         animation: mymove 2s;
     }
-    .tg-ul li.active{
+    .tg-ul div.active{
         display: block;
         position: relative;
        
@@ -2030,7 +2030,7 @@ width: 320px;
   from {top: -40px;}
   to {top: 0px;}
 }
-    .tg-ul li.active .tg-output, .tg-content{
+    .tg-ul div.active .tg-output, .tg-content{
         position: relative;
         left: 0px;
         width: 100%;
@@ -2040,7 +2040,7 @@ width: 320px;
     .tg-content{
         margin-bottom: 20px;
     }
-    .tg-ul li.active .tg-content p{
+    .tg-ul div.active .tg-content p{
         display: block;
     }
     .ms-left{
