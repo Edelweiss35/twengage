@@ -2260,31 +2260,57 @@ width: 320px;
 @media(max-width: 425px) {
     .tg-ul div.active .tg-output, .tg-content {
         position: relative;
-        left: calc(50% - 309px);
+        left: calc(50% - 240px);
         width: 100%;
         max-width: 400px;
         margin: 0 auto;
     }
-    .tg-ul div.active .tg-content {
+    .tg-ul div .tg-output, .tg-content {
+        position: relative;
+        left: calc(50% - 240px);
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    .tg-ul div .tg-content {
     -webkit-animation: mymove 2s;
     animation: mymove 2s;
     left: calc(50% - 178px);
     }
+
     .slider1 {
-        width: 395px;
-        height: 1000px;
-        display: flex;
-        overflow-x: auto;
-        -webkit-overflow-scrolling: touch;
+    width: 390px;
+    height: 535px;
+    display: flex;
+    overflow-x: auto;
     }
     .slide1 {
-        width: 395px;
-        flex-shrink: 0;
-        height: 100%;
-        display: block;
-        position: relative;
+      width: 300px;
+      flex-shrink: 0;
+      height: 100%;
+    }
+    .tg-output img {
+    width: 145%;
+    height: auto;
+    transition: all 0.3s;
+    }
+    .tg-list {
+        padding-top: 0px;
+    }
+    .tg-ul div.active {
+    display: block;
+    position: relative;}
+    .tg-ul div {
+    display: block;
+    position: relative;
     }
 
+    .tg-ul div.active .tg-content {
+        display: none;
+}
+    .tg-ul div .tg-content {
+        display: none;
+}
 }
 
 
@@ -2297,21 +2323,52 @@ width: 320px;
         max-width: 400px;
         margin: 0 auto;
     }
-    .tg-ul div.active .tg-content {
-    -webkit-animation: mymove 2s;
-    animation: mymove 2s;
-    left: calc(50% - 148px);
-    }
-}
-@media(max-width: 320px) {
-    .tg-ul div.active .tg-output, .tg-content {
+    .tg-ul div .tg-output, .tg-content {
         position: relative;
-        left: calc(50% - 215px);
+        left: calc(50% - 265px);
         width: 100%;
         max-width: 400px;
         margin: 0 auto;
     }
     .tg-ul div.active .tg-content {
+    -webkit-animation: mymove 2s;
+    animation: mymove 2s;
+    left: calc(50% - 148px);
+    }
+    .tg-ul div .tg-content {
+    -webkit-animation: mymove 2s;
+    animation: mymove 2s;
+    left: calc(50% - 148px);
+    }
+    .tg-list {
+    padding-top: 0px;
+    }
+}
+@media(max-width: 320px) {
+    .tg-ul div.active .tg-output, .tg-content {
+        position: relative;
+        left: calc(50% - 290px);
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    .tg-ul div .tg-output, .tg-content {
+        position: relative;
+        left: calc(50% - 290px);
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    .tg-list {
+        padding-top: 0px;
+    }
+
+    .tg-ul div.active .tg-content {
+    -webkit-animation: mymove 2s;
+    animation: mymove 2s;
+    left: calc(50% - 120px);
+    }
+    .tg-ul div .tg-content {
     -webkit-animation: mymove 2s;
     animation: mymove 2s;
     left: calc(50% - 120px);
