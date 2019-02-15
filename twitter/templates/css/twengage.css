@@ -591,13 +591,14 @@ p{
 	position: absolute;
 	right: 0;
 	top: 0;
-	width: 600px;
+	width: 50%;
 }
 .banner-wrap .banner-right img{
 	display: block;
-	width: 100%;
-	height: auto;
-    box-shadow:-20px 20px 46px -11px rgba(0, 0, 0, 0.05);
+}
+.banner-image-custom{
+    width:100%;
+    height:auto;
 }
 /*message*/
 #message{
