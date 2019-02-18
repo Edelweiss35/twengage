@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41ae91c5-654a-4e98-8540-0d1666c6a069" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/twitter/templates/css/help.css" afterPath="$PROJECT_DIR$/twitter/templates/css/help.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/twitter/templates/help.html" afterPath="$PROJECT_DIR$/twitter/templates/help.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/twitter/templates/home.html" afterPath="$PROJECT_DIR$/twitter/templates/home.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/twitter/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="691">
-              <caret line="314" column="18" lean-forward="true" selection-start-line="314" selection-start-column="18" selection-end-line="314" selection-end-column="18" />
+            <state relative-caret-position="491">
+              <caret line="218" column="34" lean-forward="true" selection-start-line="218" selection-start-column="34" selection-end-line="218" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -27,8 +27,8 @@
       <file leaf-file-name="help.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/twitter/templates/help.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="692">
-              <caret line="291" column="18" lean-forward="true" selection-start-line="291" selection-start-column="18" selection-end-line="291" selection-end-column="18" />
+            <state relative-caret-position="297">
+              <caret line="249" column="48" lean-forward="false" selection-start-line="249" selection-start-column="36" selection-end-line="249" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -37,8 +37,8 @@
       <file leaf-file-name="twengage.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/twitter/templates/css/twengage.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="705">
-              <caret line="1730" column="0" lean-forward="true" selection-start-line="1730" selection-start-column="0" selection-end-line="1730" selection-end-column="0" />
+            <state relative-caret-position="31140">
+              <caret line="1730" column="0" lean-forward="false" selection-start-line="1730" selection-start-column="0" selection-end-line="1730" selection-end-column="0" />
               <folding>
                 <element signature="e#34007#36191#0" expanded="false" />
                 <element signature="e#36192#37607#0" expanded="false" />
@@ -53,11 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="help.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="help.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/twitter/templates/css/help.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="258" column="0" lean-forward="true" selection-start-line="258" selection-start-column="0" selection-end-line="258" selection-end-column="0" />
+            <state relative-caret-position="1985">
+              <caret line="276" column="27" lean-forward="true" selection-start-line="276" selection-start-column="27" selection-end-line="276" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -66,8 +66,8 @@
       <file leaf-file-name="faq.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/twitter/templates/faq.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="759">
-              <caret line="247" column="14" lean-forward="true" selection-start-line="247" selection-start-column="14" selection-end-line="247" selection-end-column="14" />
+            <state relative-caret-position="4446">
+              <caret line="247" column="14" lean-forward="false" selection-start-line="247" selection-start-column="14" selection-end-line="247" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -109,6 +109,7 @@
       <find>automated</find>
       <find>how</find>
       <find>high</find>
+      <find>social media</find>
     </findStrings>
     <replaceStrings>
       <replace>help</replace>
@@ -133,11 +134,11 @@
         <option value="$PROJECT_DIR$/staticfiles/css/twengage.css" />
         <option value="$PROJECT_DIR$/staticfiles/css/twengage.308eecf126c5.css" />
         <option value="$PROJECT_DIR$/staticfiles/home.53544c7ea15b.html" />
-        <option value="$PROJECT_DIR$/twitter/templates/home.html" />
         <option value="$PROJECT_DIR$/twitter/templates/css/twengage.css" />
         <option value="$PROJECT_DIR$/twitter/templates/faq.html" />
         <option value="$PROJECT_DIR$/twitter/templates/help.html" />
         <option value="$PROJECT_DIR$/twitter/templates/css/help.css" />
+        <option value="$PROJECT_DIR$/twitter/templates/home.html" />
       </list>
     </option>
   </component>
@@ -168,8 +169,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -188,24 +187,12 @@
               <item name="twitter" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="twengage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="twengage" type="462c0819:PsiDirectoryNode" />
-              <item name="twitter" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="twengage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="twengage" type="462c0819:PsiDirectoryNode" />
-              <item name="twitter" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -263,20 +250,20 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1793" height="1028" extended-state="6" />
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16564417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16549866" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -329,7 +316,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3978">
           <caret line="221" column="29" lean-forward="true" selection-start-line="221" selection-start-column="29" selection-end-line="221" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -546,7 +532,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
           <caret line="199" column="22" lean-forward="true" selection-start-line="199" selection-start-column="22" selection-end-line="199" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -642,32 +627,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/twitter/templates/faq.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="759">
-          <caret line="247" column="14" lean-forward="true" selection-start-line="247" selection-start-column="14" selection-end-line="247" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/twitter/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="691">
-          <caret line="314" column="18" lean-forward="true" selection-start-line="314" selection-start-column="18" selection-end-line="314" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/twitter/templates/help.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="692">
-          <caret line="291" column="18" lean-forward="true" selection-start-line="291" selection-start-column="18" selection-end-line="291" selection-end-column="18" />
+        <state relative-caret-position="4446">
+          <caret line="247" column="14" lean-forward="false" selection-start-line="247" selection-start-column="14" selection-end-line="247" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/twitter/templates/css/twengage.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="1730" column="0" lean-forward="true" selection-start-line="1730" selection-start-column="0" selection-end-line="1730" selection-end-column="0" />
+        <state relative-caret-position="31140">
+          <caret line="1730" column="0" lean-forward="false" selection-start-line="1730" selection-start-column="0" selection-end-line="1730" selection-end-column="0" />
           <folding>
             <element signature="e#34007#36191#0" expanded="false" />
             <element signature="e#36192#37607#0" expanded="false" />
@@ -683,8 +652,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/twitter/templates/css/help.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="258" column="0" lean-forward="true" selection-start-line="258" selection-start-column="0" selection-end-line="258" selection-end-column="0" />
+        <state relative-caret-position="1985">
+          <caret line="276" column="27" lean-forward="true" selection-start-line="276" selection-start-column="27" selection-end-line="276" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twitter/templates/help.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="249" column="48" lean-forward="false" selection-start-line="249" selection-start-column="36" selection-end-line="249" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twitter/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="218" column="34" lean-forward="true" selection-start-line="218" selection-start-column="34" selection-end-line="218" selection-end-column="34" />
           <folding />
         </state>
       </provider>
