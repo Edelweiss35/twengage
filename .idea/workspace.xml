@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="41ae91c5-654a-4e98-8540-0d1666c6a069" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/twitter/templates/css/twengage.css" afterPath="$PROJECT_DIR$/twitter/templates/css/twengage.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/twitter/templates/home.html" afterPath="$PROJECT_DIR$/twitter/templates/home.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,7 +19,7 @@
         <entry file="file://$PROJECT_DIR$/twitter/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="491">
-              <caret line="218" column="34" lean-forward="true" selection-start-line="218" selection-start-column="34" selection-end-line="218" selection-end-column="34" />
+              <caret line="275" column="65" lean-forward="false" selection-start-line="275" selection-start-column="65" selection-end-line="275" selection-end-column="65" />
               <folding />
             </state>
           </provider>
@@ -37,17 +38,13 @@
       <file leaf-file-name="twengage.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/twitter/templates/css/twengage.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="31140">
-              <caret line="1730" column="0" lean-forward="false" selection-start-line="1730" selection-start-column="0" selection-end-line="1730" selection-end-column="0" />
+            <state relative-caret-position="244">
+              <caret line="2207" column="0" lean-forward="false" selection-start-line="2207" selection-start-column="0" selection-end-line="2207" selection-end-column="0" />
               <folding>
-                <element signature="e#34007#36191#0" expanded="false" />
-                <element signature="e#36192#37607#0" expanded="false" />
-                <element signature="e#37608#41177#0" expanded="false" />
-                <element signature="e#41179#41927#0" expanded="false" />
-                <element signature="e#41928#42919#0" expanded="false" />
-                <element signature="e#42921#45957#0" expanded="false" />
-                <element signature="e#45961#46758#0" expanded="false" />
-                <element signature="e#46759#47455#0" expanded="false" />
+                <element signature="e#34064#36248#0" expanded="false" />
+                <element signature="e#36249#37664#0" expanded="false" />
+                <element signature="e#37665#41234#0" expanded="false" />
+                <element signature="e#41236#41984#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -134,10 +131,10 @@
         <option value="$PROJECT_DIR$/staticfiles/css/twengage.css" />
         <option value="$PROJECT_DIR$/staticfiles/css/twengage.308eecf126c5.css" />
         <option value="$PROJECT_DIR$/staticfiles/home.53544c7ea15b.html" />
-        <option value="$PROJECT_DIR$/twitter/templates/css/twengage.css" />
         <option value="$PROJECT_DIR$/twitter/templates/faq.html" />
         <option value="$PROJECT_DIR$/twitter/templates/help.html" />
         <option value="$PROJECT_DIR$/twitter/templates/css/help.css" />
+        <option value="$PROJECT_DIR$/twitter/templates/css/twengage.css" />
         <option value="$PROJECT_DIR$/twitter/templates/home.html" />
       </list>
     </option>
@@ -186,6 +183,13 @@
               <item name="twengage" type="462c0819:PsiDirectoryNode" />
               <item name="twitter" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="twengage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="twengage" type="462c0819:PsiDirectoryNode" />
+              <item name="twitter" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -292,14 +296,10 @@
         <state relative-caret-position="41292">
           <caret line="2294" column="23" lean-forward="true" selection-start-line="2294" selection-start-column="23" selection-end-line="2294" selection-end-column="23" />
           <folding>
-            <element signature="e#34007#36191#0" expanded="false" />
-            <element signature="e#36192#37607#0" expanded="false" />
-            <element signature="e#37608#41177#0" expanded="false" />
-            <element signature="e#41179#41927#0" expanded="false" />
-            <element signature="e#41928#42919#0" expanded="false" />
-            <element signature="e#42921#45957#0" expanded="false" />
-            <element signature="e#45961#46758#0" expanded="false" />
-            <element signature="e#46759#47455#0" expanded="false" />
+            <element signature="e#34064#36248#0" expanded="false" />
+            <element signature="e#36249#37664#0" expanded="false" />
+            <element signature="e#37665#41234#0" expanded="false" />
+            <element signature="e#41236#41984#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -316,6 +316,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3978">
           <caret line="221" column="29" lean-forward="true" selection-start-line="221" selection-start-column="29" selection-end-line="221" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -324,14 +325,10 @@
         <state relative-caret-position="38016">
           <caret line="2112" column="6" lean-forward="false" selection-start-line="2112" selection-start-column="1" selection-end-line="2112" selection-end-column="6" />
           <folding>
-            <element signature="e#34007#36191#0" expanded="false" />
-            <element signature="e#36192#37607#0" expanded="false" />
-            <element signature="e#37608#41177#0" expanded="false" />
-            <element signature="e#41179#41927#0" expanded="false" />
-            <element signature="e#41928#42919#0" expanded="false" />
-            <element signature="e#42921#45957#0" expanded="false" />
-            <element signature="e#45961#46758#0" expanded="false" />
-            <element signature="e#46759#47455#0" expanded="false" />
+            <element signature="e#34064#36248#0" expanded="false" />
+            <element signature="e#36249#37664#0" expanded="false" />
+            <element signature="e#37665#41234#0" expanded="false" />
+            <element signature="e#41236#41984#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -532,6 +529,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
           <caret line="199" column="22" lean-forward="true" selection-start-line="199" selection-start-column="22" selection-end-line="199" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -633,20 +631,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/twitter/templates/css/twengage.css">
+    <entry file="file://$PROJECT_DIR$/twitter/templates/help.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31140">
-          <caret line="1730" column="0" lean-forward="false" selection-start-line="1730" selection-start-column="0" selection-end-line="1730" selection-end-column="0" />
-          <folding>
-            <element signature="e#34007#36191#0" expanded="false" />
-            <element signature="e#36192#37607#0" expanded="false" />
-            <element signature="e#37608#41177#0" expanded="false" />
-            <element signature="e#41179#41927#0" expanded="false" />
-            <element signature="e#41928#42919#0" expanded="false" />
-            <element signature="e#42921#45957#0" expanded="false" />
-            <element signature="e#45961#46758#0" expanded="false" />
-            <element signature="e#46759#47455#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="297">
+          <caret line="249" column="48" lean-forward="false" selection-start-line="249" selection-start-column="36" selection-end-line="249" selection-end-column="48" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -658,18 +647,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/twitter/templates/help.html">
+    <entry file="file://$PROJECT_DIR$/twitter/templates/css/twengage.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="249" column="48" lean-forward="false" selection-start-line="249" selection-start-column="36" selection-end-line="249" selection-end-column="48" />
-          <folding />
+        <state relative-caret-position="244">
+          <caret line="2207" column="0" lean-forward="false" selection-start-line="2207" selection-start-column="0" selection-end-line="2207" selection-end-column="0" />
+          <folding>
+            <element signature="e#34064#36248#0" expanded="false" />
+            <element signature="e#36249#37664#0" expanded="false" />
+            <element signature="e#37665#41234#0" expanded="false" />
+            <element signature="e#41236#41984#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/twitter/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="491">
-          <caret line="218" column="34" lean-forward="true" selection-start-line="218" selection-start-column="34" selection-end-line="218" selection-end-column="34" />
+          <caret line="275" column="65" lean-forward="false" selection-start-line="275" selection-start-column="65" selection-end-line="275" selection-end-column="65" />
           <folding />
         </state>
       </provider>

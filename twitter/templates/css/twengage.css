@@ -1823,6 +1823,12 @@ width: 320px;
 .fc-input input::placeholder{
     color: #999ea7;
 }
+.lab {
+    display: block;
+}
+.mob {
+    display: none;
+}
 @media (min-width: 1200px){
     .container {
         max-width: 1140px;
@@ -2262,6 +2268,12 @@ width: 320px;
 }
 
 @media(max-width: 425px) {
+    .lab {
+        display: none;
+    }
+    .mob {
+        display: block;
+    }
     .tg-ul div.active .tg-output, .tg-content {
         position: relative;
         left: calc(50% - 240px);
@@ -2462,5 +2474,11 @@ width: 320px;
     -webkit-animation: mymove 2s;
     animation: mymove 2s;
     left: calc(50% - 220px);
+    }
+    .lab {
+        display: none;
+    }
+    .mob {
+        display: block;
     }
 }
